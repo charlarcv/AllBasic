@@ -6,11 +6,16 @@ public class API_AutomationTest {
 
 	@Test
 	public void api() {
-		System.out.println("Inside api mobile now2");
+		System.out.println("Inside api mobile 1");
 	}
 	
 	@Test
 	public void api2() {
 		System.out.println("Inside api mobile 2");
+	}
+
+	@Test
+	public void api3() {
+		System.out.println("Inside api mobile 3");
 	}
 }
