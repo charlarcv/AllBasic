@@ -18,4 +18,9 @@ public class API_AutomationTest {
 	public void api3() {
 		System.out.println("Inside api mobile 3");
 	}
+	@Test
+	public void api4() {
+		System.out.println("Inside api mobile 3");
+	}
 }
+
