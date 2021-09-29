@@ -5,8 +5,10 @@ import org.testng.annotations.Test;
 
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
-
+//import static io.restassured.RestAssured.*;
+//import static io.restassured.matcher.ResponseAwareMatcher.*;
 import static com.jayway.restassured.RestAssured.*;
+import static org.hamcrest.Matcher.*;
 
 public class FirstAPI {
 
@@ -16,7 +18,7 @@ public class FirstAPI {
 	public String getName() {
 		return name;
 	}
-	public void getName(String name) {
+	public void setName(String name) {
 		this.name=name;
 	}
 	
