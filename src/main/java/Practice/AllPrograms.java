@@ -19,12 +19,7 @@ public class AllPrograms {
 			Sum=Sum+d;
 		}
 		System.out.println(Sum);
-		//int f= sc.nextInt();
 		
-		/*if(d%2==0) 
-		{
-			System.out.println("" );
-		}*/
 	}
 
 }

@@ -13,6 +13,7 @@ public class ReadFromReader {
 		String s=reader.readLine();
 		System.out.println(s);
 		
+		
 	}
 
 }
